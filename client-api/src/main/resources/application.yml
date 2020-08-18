@@ -1,0 +1,13 @@
+server:
+  port: 6000
+  error:
+    include-stacktrace: never
+
+spring:
+  application:
+    name: client-api
+  cloud:
+    consul:
+    host: localhost
+    port: 8500
+    failFast: false
