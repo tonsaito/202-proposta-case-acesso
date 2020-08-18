@@ -31,8 +31,8 @@ on each microservice folder.
 
 ## How to test
 (consul server) http://localhost:8500/ <br>
-(configuration server) http://localhost:8888/<service-name>/<profile> <br>
-(gateway server) http://localhost:9080/<service-name>/** <br>
+(configuration server) http://localhost:8888/service-name/profile <br>
+(gateway server) http://localhost:9080/service-name/** <br>
 
 (client-api) http://localhost:6001/swagger-ui.html#/ <br>
 (door-api) http://localhost:6100/swagger-ui.html#/ <br>
