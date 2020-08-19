@@ -1,5 +1,5 @@
 server:
-  port: 6001
+  port: 6000
   error:
     include-stacktrace: never
 
@@ -8,6 +8,9 @@ spring:
     name: client-api
   cloud:
     consul:
-    host: localhost
+    host: 192.168.0.12
     port: 8500
     failFast: false
+    discovery:
+      healthCheckUrl: http://192.168.0.12:6002/actuator/health
+      healthCheckInterval: 15s
