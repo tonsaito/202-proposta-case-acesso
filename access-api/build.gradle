@@ -29,7 +29,7 @@ dependencies {
 	implementation 'org.springframework.kafka:spring-kafka'
 
 	//configuration
-	//compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-config', version: '2.2.4.RELEASE'
+	compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-config', version: '2.2.4.RELEASE'
 
 	//integration
 	compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-consul-discovery', version: '2.2.4.RELEASE'
